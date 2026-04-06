@@ -497,9 +497,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Author
 
-**Your Name**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github)](https://github.com/yourusername)
+**GEDENDHAR SIVAKUMAR**  
+[![LinkedIn](https://www.linkedin.com/in/gedendhar-s-23b22a197/)
 
 ---
 
