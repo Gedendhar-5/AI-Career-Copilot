@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Resume \u2014 Skills",
+    "section": "skills",
+    "text": "AI/ML & NLP: Hugging Face (BERT / FinBERT), TensorFlow, PyTorch ,spaCy, Scikit-learn, OpenCV, Tesseract OCR, Regex Cloud & DevOps: AWS (EC2, S3, IAM, Lambda), CloudFormation, Docker, Jenkins (CI/CD pipelines \u2013 basic), GitHub Actions Data & Automation: Snowflake, Pandas, NumPy, RDBMS, ETL, pdfplumber, PyMuPDF, yfinance ServiceNow: ITSM , Client Scripts, Business Rules, Glide APIs, Flow Designer AI-Assisted Development: Claude Code, MCP (Model Context Protocol), Workflow Automation, SDK Integration, ChatGPT Tools & Visualization: Git, Jenkins, JIRA, Streamlit, Plotly, Matplotlib, Power BI, Microsoft Excel PROFESSIONAL DEVELOPMENT Acquiring in-demand skills in Prompt Engineering, real-world Machine Learning applications, and AI-driven data workflows through continuous self-learning.",
+    "source": "resume"
+  },
+  {
+    "label": "Job Description \u2014 Required Skills",
+    "section": "required_skills",
+    "text": "Technical Skills Strong background in Computer Vision and Machine Learning Solid experience with: Python PyTorch or TensorFlow Hands-on experience with: Human pose estimation Time-series analysis Model optimization for real-time inference Understanding of signal processing fundamentals (IMU / motion data) Practical Experience Experience deploying ML models into production, not just research Ability to debug models using real-world data, not curated datasets Comfortable working with imperfect, noisy, and limited datasets Nice-to-Have (Strong Plus) Experience in healthcare, rehab, biomechanics, sports science, or fitness tech Sensor fusion experience (vision + IMU) Experience with: Temporal models (LSTM, TCN, transformers for motion) Edge or mobile ML optimization Familiarity with regulatory or compliance environments (HIPAA, GDPR, medical devices) Publications, patents, or open-source contributions in CV / ML",
+    "source": "jd"
+  },
+  {
+    "label": "Job Description \u2014 Responsibilities",
+    "section": "responsibilities",
+    "text": "You will work on real-world data, noisy environments, diverse patient populations, and production constraints in healthcare.Key Responsibilities Computer Vision & Pose Estimation Design, evaluate, and improve human pose estimation pipelines for rehab and fitness use cases Enhance robustness across: Clothing variations (loose clothing, hijabs, patterns) Lighting and camera placement Different body types, mobility limitations, and assistive devices Evaluate, integrate and sutomize models such as: MoveNet HRNet MediaPipe (customized / extended) Other open-source or commercial CV frameworks Sensor Fusion & Motion Analysis Develop sensor + computer vision fusion algorithms combining: IMU / wearable sensor data RGB video-based pose estimation Design temporal models to improve: Angle accuracy (ROM) Motion smoothness Repetition counting Exercise quality validation Build algorithms resilient to partial occlusion or sensor dropout Rehabilitation & Fitness Intelligence Develop exercise validation and scoring algorithms: Range of motion (ROM) Speed, symmetry, control, compensation detection Contribute to personalized analytics using continuous ROM and exercise data Support wound image analytics and recovery progression insights (future roadmap) Data & ML Engineering Build pipelines for: Data preprocessing and labeling Model evaluation and benchmarking Offline experimentation and online inference Collaborate with backend engineers to deploy models in: Real-time mobile pipelines Cloud-based batch and streaming workflows Balance accuracy, latency, and compute cost Clinical & Product Collaboration Work closely with: Product managers UX designers Clinicians and rehab specialists Translate clinical requirements into measurable technical metrics Support validation studies and algorithm documentation (DHF-ready)",
+    "source": "jd"
+  },
+  {
+    "label": "Job Description \u2014 General",
+    "section": "general",
+    "text": "Job Summary: We are building a next-generation digital rehabilitation and fitness platform that combines computer vision, wearable sensors, and AI-driven analytics to improve patient recovery outcomes and long-term physical performance. As a CV/ML Scientist / Engineer, you will play a core role in transforming our current computer vision pipeline into a robust, clinically reliable, and scalable system, and in developing proprietary sensor + vision fusion algorithms that become a long-term IP moat for the company.",
+    "source": "jd"
+  }
+]

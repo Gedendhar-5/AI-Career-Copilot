@@ -1,0 +1,197 @@
+{
+  "gege_siva": {
+    "username": "gege_siva",
+    "goal": "Become a AI/ML  engineeer",
+    "current_skills": [
+      "Python",
+      "ll",
+      "rag",
+      "aws"
+    ],
+    "experience": "intermediate",
+    "created_at": "2026-04-03 18:59",
+    "last_active": "2026-04-06 13:47",
+    "progress": {
+      "completed_tasks": [
+        {
+          "task": "Analyzed job: what are the skills here iam missing",
+          "completed_at": "2026-04-03 19:18"
+        },
+        {
+          "task": "Analyzed job: what are the skills here iam missing",
+          "completed_at": "2026-04-03 19:18"
+        },
+        {
+          "task": "Analyzed: what skills iam missing?",
+          "completed_at": "2026-04-04 13:09"
+        },
+        {
+          "task": "Analyzed: what skills  I am Missing?",
+          "completed_at": "2026-04-04 13:23"
+        },
+        {
+          "task": "Analyzed: What skills I am missing?",
+          "completed_at": "2026-04-04 13:48"
+        },
+        {
+          "task": "Analyzed: skills?",
+          "completed_at": "2026-04-04 14:01"
+        },
+        {
+          "task": "Analyzed: skills ?",
+          "completed_at": "2026-04-04 14:16"
+        },
+        {
+          "task": "Completed: Push a repo to GitHub",
+          "completed_at": "2026-04-04 14:17"
+        },
+        {
+          "task": "Completed: Install Docker and run hello-world",
+          "completed_at": "2026-04-04 14:17"
+        },
+        {
+          "task": "Analyzed: What are the skills i need to improve",
+          "completed_at": "2026-04-04 18:42"
+        },
+        {
+          "task": "Analyzed: what skills should I improve?",
+          "completed_at": "2026-04-04 19:45"
+        },
+        {
+          "task": "Analyzed: what skills should i improve",
+          "completed_at": "2026-04-04 20:15"
+        },
+        {
+          "task": "Chat: what skills should i improve to be an AI Engineer",
+          "completed_at": "2026-04-04 21:59"
+        },
+        {
+          "task": "Analyzed: what skills I'm missing here?",
+          "completed_at": "2026-04-04 22:01"
+        },
+        {
+          "task": "Analyzed: what skills iam missing?",
+          "completed_at": "2026-04-04 22:04"
+        },
+        {
+          "task": "Analyzed: what skills iam missing?",
+          "completed_at": "2026-04-04 22:05"
+        },
+        {
+          "task": "Analyzed: what skills i need to improve?",
+          "completed_at": "2026-04-05 12:20"
+        },
+        {
+          "task": "Chat: what should i improve",
+          "completed_at": "2026-04-05 12:21"
+        },
+        {
+          "task": "Analyzed: what skills are missing?",
+          "completed_at": "2026-04-05 14:15"
+        },
+        {
+          "task": "Analyzed: what skills should I improve ",
+          "completed_at": "2026-04-05 14:34"
+        },
+        {
+          "task": "Chat: what should i improve in based on skills",
+          "completed_at": "2026-04-05 14:35"
+        },
+        {
+          "task": "Chat: just give me the name of the skills",
+          "completed_at": "2026-04-05 14:37"
+        },
+        {
+          "task": "Chat: seperated by comma just names not explantion",
+          "completed_at": "2026-04-05 14:37"
+        },
+        {
+          "task": "Chat: jus just clearly mention only the name of the skil",
+          "completed_at": "2026-04-05 14:41"
+        },
+        {
+          "task": "Analyzed: what skils are I am missing  in this job to match it?",
+          "completed_at": "2026-04-05 15:05"
+        },
+        {
+          "task": "Analyzed: what skils are I am missing  in this job to match it?",
+          "completed_at": "2026-04-05 15:06"
+        },
+        {
+          "task": "Analyzed: what skils are I am missing  in this job to match it?",
+          "completed_at": "2026-04-05 15:07"
+        },
+        {
+          "task": "Chat: what are the skills should i improve?",
+          "completed_at": "2026-04-05 15:08"
+        },
+        {
+          "task": "Generated AI career roadmap",
+          "completed_at": "2026-04-05 15:42"
+        },
+        {
+          "task": "Analyzed: what skills here?",
+          "completed_at": "2026-04-05 15:46"
+        },
+        {
+          "task": "Generated AI career roadmap",
+          "completed_at": "2026-04-05 15:47"
+        },
+        {
+          "task": "Generated AI career roadmap",
+          "completed_at": "2026-04-05 15:48"
+        },
+        {
+          "task": "Analyzed: whats common skills i have here?",
+          "completed_at": "2026-04-06 12:14"
+        },
+        {
+          "task": "Generated AI career roadmap",
+          "completed_at": "2026-04-06 12:16"
+        },
+        {
+          "task": "Completed: Install PyTorch and run test",
+          "completed_at": "2026-04-06 12:17"
+        },
+        {
+          "task": "Completed: Build a simple model",
+          "completed_at": "2026-04-06 12:17"
+        },
+        {
+          "task": "Completed: Train on MNIST",
+          "completed_at": "2026-04-06 12:17"
+        },
+        {
+          "task": "Completed: Install PyTorch and run test",
+          "completed_at": "2026-04-06 12:17"
+        },
+        {
+          "task": "Completed: Build a simple model",
+          "completed_at": "2026-04-06 12:17"
+        },
+        {
+          "task": "Completed: Train on MNIST",
+          "completed_at": "2026-04-06 12:17"
+        },
+        {
+          "task": "Analyzed: skills?",
+          "completed_at": "2026-04-06 12:19"
+        },
+        {
+          "task": "RAG query: What skills I am missing?",
+          "completed_at": "2026-04-06 13:46"
+        },
+        {
+          "task": "RAG query: What skills I am missing?",
+          "completed_at": "2026-04-06 13:47"
+        },
+        {
+          "task": "Generated AI career roadmap",
+          "completed_at": "2026-04-06 13:47"
+        }
+      ],
+      "sessions": 73,
+      "skill_score": 480
+    }
+  }
+}

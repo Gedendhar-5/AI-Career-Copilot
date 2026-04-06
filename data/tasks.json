@@ -1,0 +1,70 @@
+{
+  "gege_siva": {
+    "generated_at": "2026-04-06 12:17",
+    "tasks": [
+      {
+        "day": "Monday",
+        "date": "2026-04-06",
+        "skill_focus": "pytorch",
+        "task": "Install PyTorch and run test",
+        "difficulty": "Medium",
+        "estimated_hours": 2,
+        "completed": true
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026-04-07",
+        "skill_focus": "tensorflow",
+        "task": "Build a simple model",
+        "difficulty": "Medium",
+        "estimated_hours": 2,
+        "completed": true
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026-04-08",
+        "skill_focus": "pytorch",
+        "task": "Train on MNIST",
+        "difficulty": "Medium",
+        "estimated_hours": 2,
+        "completed": true
+      },
+      {
+        "day": "Thursday",
+        "date": "2026-04-09",
+        "skill_focus": "tensorflow",
+        "task": "Install TensorFlow and run test",
+        "difficulty": "Hard",
+        "estimated_hours": 2,
+        "completed": false
+      },
+      {
+        "day": "Friday",
+        "date": "2026-04-10",
+        "skill_focus": "pytorch",
+        "task": "Build a neural network",
+        "difficulty": "Hard",
+        "estimated_hours": 2,
+        "completed": false
+      },
+      {
+        "day": "Saturday",
+        "date": "2026-04-11",
+        "skill_focus": "tensorflow",
+        "task": "Train on sample dataset",
+        "difficulty": "Hard",
+        "estimated_hours": 2,
+        "completed": false
+      },
+      {
+        "day": "Sunday",
+        "date": "2026-04-12",
+        "skill_focus": "pytorch",
+        "task": "Install PyTorch and run test",
+        "difficulty": "Hard",
+        "estimated_hours": 2,
+        "completed": false
+      }
+    ]
+  }
+}
