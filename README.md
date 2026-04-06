@@ -97,66 +97,7 @@ This is the core of the system. Unlike naive RAG that chunks text blindly, this 
 
 ## 🔄 End-to-End AI Pipeline
 
-```
-USER INPUT
-    │
-    ▼
-┌─────────────────────────────────────┐
-│  1. PROFILE SETUP                    │
-│     username, goal, skills, level    │
-│     → saved to memory (JSON/DB)      │
-└─────────────────┬───────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────┐
-│  2. DOCUMENT INGESTION               │
-│     Resume text + JD text           │
-│     → Parser → structured sections  │
-│     → Chunker → labelled chunks     │
-│     → Embedder → 384-dim vectors    │
-│     → FAISS → indexed + saved       │
-└─────────────────┬───────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────┐
-│  3. COMPARISON LAYER                 │
-│     extract_skills(resume) →set A   │
-│     extract_skills(jd)     →set B   │
-│     matched = A ∩ B                 │
-│     missing = B - A                 │
-│     score   = |matched|/|B| × 100  │
-└─────────────────┬───────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────┐
-│  4. RETRIEVAL (at query time)        │
-│     query → embed → L2 search       │
-│     threshold filter → top-k chunks │
-│     source filter → resume or JD    │
-└─────────────────┬───────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────┐
-│  5. PROMPT CONSTRUCTION              │
-│     profile + chunks + gap data     │
-│     → structured prompt template    │
-└─────────────────┬───────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────┐
-│  6. LLM INFERENCE (Groq)             │
-│     Llama 3.3 70B reads full context│
-│     generates personalised response │
-└─────────────────┬───────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────┐
-│  7. RESPONSE + PROGRESS UPDATE       │
-│     UI displays structured output   │
-│     progress saved (score + tasks)  │
-│     session tracked in memory       │
-└─────────────────────────────────────┘
-```
+![End to End AI Pipeline](<Photos & Architecture/End to End AI Pipeline.png>)
 
 ---
 
