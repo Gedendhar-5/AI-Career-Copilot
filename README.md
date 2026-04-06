@@ -104,17 +104,7 @@ This is the core of the system. Unlike naive RAG that chunks text blindly, this 
 ## 📊 Workflow Diagrams
 
 ### Resume–Job Matching Workflow
-```
-Resume Text ──┐
-              ├─→ Parser ─→ Skills extracted ─→ Set A (resume skills)
-JD Text ──────┘          └─→ Skills extracted ─→ Set B (JD skills)
-                                                        │
-                                    matched = A ∩ B ◄──┘
-                                    missing = B - A
-                                    score   = |A∩B| / |B| × 100
-                                                        │
-                                    Advisor Agent verdict
-                                    Strong / Moderate / Needs work
+![Workflow](<Photos & Architecture/Workflow.png>
 ```
 
 ### Query Processing Workflow
