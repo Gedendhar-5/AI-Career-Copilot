@@ -93,40 +93,6 @@ This is the core of the system. Unlike naive RAG that chunks text blindly, this 
 ## 🧩 Multi-Agent Architecture
 
 ![Multi-Agent  Architecture](<Photos & Architecture/Multi-Agent Architecture.png>)
-┌─────────────────────────────────────────────────────┐
-│                 AGENT ORCHESTRATION                  │
-│                    (app.py)                          │
-└────┬──────────────┬──────────────┬──────────────────┘
-     │              │              │
-┌────▼────┐   ┌─────▼─────┐  ┌───▼──────────────────┐
-│ ADVISOR │   │  PLANNER  │  │   TASK GENERATOR      │
-│  AGENT  │   │   AGENT   │  │       AGENT           │
-│         │   │           │  │                        │
-│ Analyzes│   │ Generates │  │ Creates 7-day plan    │
-│ skill   │   │ 4-phase   │  │ Difficulty levels     │
-│ gap     │   │ career    │  │ Skill-focused tasks   │
-│         │   │ roadmap   │  │ Mark done + track pts │
-│ Returns:│   │           │  │                        │
-│ matched │   │ Returns:  │  │ Returns:               │
-│ missing │   │ phases    │  │ task list per day     │
-│ score % │   │ duration  │  │ estimated hours       │
-│ verdict │   │ focus     │  │ completion status     │
-│ advice  │   │           │  │                        │
-└────┬────┘   └─────┬─────┘  └───┬──────────────────┘
-     │              │              │
-     └──────────────┴──────────────┘
-                    │
-        ┌───────────▼────────────┐
-        │    PROMPT BUILDER      │
-        │  Combines all context  │
-        └───────────┬────────────┘
-                    │
-        ┌───────────▼────────────┐
-        │     LLM ENGINE         │
-        │  (Groq / Llama 3.3)    │
-        └────────────────────────┘
-```
-
 ---
 
 ## 🔄 End-to-End AI Pipeline
