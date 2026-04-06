@@ -481,12 +481,6 @@ If you fork this repo, you must:
 
 Distributed under the MIT License. See `LICENSE` for more information.© 2026 Gege
 
----
-
-## 👨‍💻 Author
-
-**GEDENDHAR SIVAKUMAR**  
-[![LinkedIn](https://www.linkedin.com/in/gedendhar-s-23b22a197/)
 
 ---
 
