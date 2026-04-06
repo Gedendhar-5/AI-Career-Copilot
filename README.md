@@ -104,8 +104,7 @@ This is the core of the system. Unlike naive RAG that chunks text blindly, this 
 ## 📊 Workflow Diagrams
 
 ### Resume–Job Matching Workflow
-![Workflow](<Photos & Architecture/Workflow.png>
-```
+![Workflow](<Photos & Architecture/Workflow Diagram.png>)
 
 ### Query Processing Workflow
 ```
