@@ -85,52 +85,8 @@ This is the core of the system. Unlike naive RAG that chunks text blindly, this 
 
 ## 🤖 LLM Integration Architecture
 
-```
-┌───────────────────────────────────────────────────────┐
-│              PROMPT BUILDER                            │
-│                                                        │
-│  Inputs combined:                                      │
-│  ┌─────────────┐  ┌──────────────┐  ┌──────────────┐ │
-│  │ User Profile│  │  RAG Chunks  │  │  Skill Gap   │ │
-│  │ goal        │  │  (top-k      │  │  Analysis    │ │
-│  │ experience  │  │   results)   │  │  matched     │ │
-│  │ skills      │  │              │  │  missing     │ │
-│  │ score       │  │              │  │  score       │ │
-│  └──────┬──────┘  └──────┬───────┘  └──────┬───────┘ │
-│         └────────────────┴──────────────────┘         │
-│                          │                             │
-│              ┌───────────▼───────────┐                │
-│              │   STRUCTURED PROMPT   │                │
-│              │  System role          │                │
-│              │  User context         │                │
-│              │  Retrieved docs       │                │
-│              │  Skill gap data       │                │
-│              │  User question        │                │
-│              │  Instructions         │                │
-│              └───────────┬───────────┘                │
-└──────────────────────────┼────────────────────────────┘
-                           │ HTTPS API call
-┌──────────────────────────▼────────────────────────────┐
-│              GROQ INFERENCE ENGINE                     │
-│                                                        │
-│  Model: llama-3.3-70b-versatile                       │
-│  Speed: ~500 tokens/second (fastest free LLM)         │
-│  Context: 128K tokens                                  │
-│  Free tier: 1,000 requests/day                         │
-│                                                        │
-│  Parameters used:                                      │
-│  temperature = 0.7 (creative but controlled)           │
-│  max_tokens  = 1024 (career advice length)             │
-└──────────────────────────┬────────────────────────────┘
-                           │
-              ┌────────────▼────────────┐
-              │   CAREER MENTOR RESPONSE│
-              │  Personalised advice    │
-              │  Specific skill gaps    │
-              │  Free resource links    │
-              │  Encouragement          │
-              └─────────────────────────┘
-```
+
+![LLM Integration Architecture](<Photos & Architecture/LLM Architecture.png>)
 
 ---
 
