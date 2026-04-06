@@ -97,67 +97,7 @@
 
 This is the core of the system. Unlike naive RAG that chunks text blindly, this system uses **structured, section-aware parsing** before retrieval.
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    RAG PIPELINE                                  │
-│                                                                  │
-│  INPUT                                                           │
-│  ┌──────────────┐    ┌──────────────────┐                       │
-│  │  Resume Text │    │  Job Description │                       │
-│  └──────┬───────┘    └────────┬─────────┘                       │
-│         │                     │                                  │
-│  ┌──────▼─────────────────────▼─────────┐                       │
-│  │         STRUCTURED PARSER            │                       │
-│  │  Resume → Skills | Experience |      │                       │
-│  │           Education | Projects       │                       │
-│  │  JD     → Required Skills |          │                       │
-│  │           Responsibilities |         │                       │
-│  │           Nice-to-Have               │                       │
-│  └──────────────────┬──────────────────┘                       │
-│                     │                                            │
-│  ┌──────────────────▼──────────────────┐                       │
-│  │         CHUNKING LAYER              │                       │
-│  │  Section-aware chunks with labels   │                       │
-│  │  {label, section, text, source}     │                       │
-│  │  Threshold: len(text) > 20 chars    │                       │
-│  └──────────────────┬──────────────────┘                       │
-│                     │                                            │
-│  ┌──────────────────▼──────────────────┐                       │
-│  │       EMBEDDING MODEL               │                       │
-│  │  all-MiniLM-L6-v2                   │                       │
-│  │  384-dimensional dense vectors      │                       │
-│  │  Input: text chunk                  │                       │
-│  │  Output: float32 numpy array        │                       │
-│  └──────────────────┬──────────────────┘                       │
-│                     │                                            │
-│  ┌──────────────────▼──────────────────┐                       │
-│  │       FAISS VECTOR INDEX            │                       │
-│  │  IndexFlatL2 (exact L2 search)      │                       │
-│  │  Saved: data/faiss_index/           │                       │
-│  │  Stores: vectors + chunk metadata   │                       │
-│  └──────────────────┬──────────────────┘                       │
-│                     │  (at query time)                           │
-│  ┌──────────────────▼──────────────────┐                       │
-│  │       INTELLIGENT RETRIEVER         │                       │
-│  │  1. Embed query → query vector      │                       │
-│  │  2. L2 distance search in FAISS     │                       │
-│  │  3. Threshold filter (dist < 2.0)   │                       │
-│  │  4. Source filter (resume / jd)     │                       │
-│  │  5. Deduplicate results             │                       │
-│  │  6. Return top-k structured results │                       │
-│  └──────────────────┬──────────────────┘                       │
-│                     │                                            │
-│  ┌──────────────────▼──────────────────┐                       │
-│  │       COMPARISON LAYER              │                       │
-│  │  resume_skills ∩ jd_skills = matched│                       │
-│  │  jd_skills - resume_skills = missing│                       │
-│  │  match_score = matched/total × 100  │                       │
-│  └──────────────────┬──────────────────┘                       │
-│                     │                                            │
-│              [Context passed to LLM]                            │
-└─────────────────────────────────────────────────────────────────┘
-```
-
+()
 ### Why This RAG Is Better Than Naive RAG
 
 | Naive RAG | This System |
