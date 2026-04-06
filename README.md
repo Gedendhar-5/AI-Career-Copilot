@@ -479,7 +479,7 @@ If you fork this repo, you must:
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.© 2026 Gege
 
 ---
 
