@@ -452,11 +452,11 @@ If you fork this repo, you must:
 
 | Resume Analyzer | Match Score | AI Chat |
 |---|---|---|
-| ![Analyser](<Photos & Architecture/Analyzer.png>) | ![Match Score](<Match Score.png>) |  ![AI Chat](<AI Chat.png>) |
+| ![Analyser](<Photos & Architecture/Analyzer.png>) | ![Match Score](<Photos & Architecture/Match Score.png>) |  ![AI Chat](<Photos & Architecture/AI Chat.png>) |
 
 | Career Roadmap | Daily Tasks | Dashboard |
 |---|---|---|
-| ![roadmap](screenshots/roadmap.png) | ![tasks](screenshots/tasks.png) | ![dashboard](screenshots/dashboard.png) |
+| ![Roadmap](<Photos & Architecture/Career Roadmap.png>) |![Daily Tasks](<Photos & Architecture/Career Roadmap.png>)|![Dashboard](<Photos & Architecture/Dashboard.png>) |
 
 ---
 
