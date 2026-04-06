@@ -97,7 +97,7 @@
 
 This is the core of the system. Unlike naive RAG that chunks text blindly, this system uses **structured, section-aware parsing** before retrieval.
 
-(Photos & Architecture/RAG Architecture image.png)
+![RAG Architecture](Photos & Architecture/RAG Architecture image.png)
 ### Why This RAG Is Better Than Naive RAG
 
 | Naive RAG | This System |
