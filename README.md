@@ -92,7 +92,7 @@ This is the core of the system. Unlike naive RAG that chunks text blindly, this 
 
 ## 🧩 Multi-Agent Architecture
 
-```
+![Multi-Agent  Architecture](<Photos & Architecture/Multi-Agent Architecture.png>)
 ┌─────────────────────────────────────────────────────┐
 │                 AGENT ORCHESTRATION                  │
 │                    (app.py)                          │
