@@ -452,8 +452,7 @@ If you fork this repo, you must:
 
 | Resume Analyzer | Match Score | AI Chat |
 |---|---|---|
-| ![analyzer](<Photos & Architecture
-/Analyzer.png>) | ![score](screenshots/score.png) | ![chat](screenshots/chat.png) |
+| ![Analyser](<Photos & Architecture/Analyzer.png>) | ![Match Score](<Match Score.png>) |  ![AI Chat](<AI Chat.png>) |
 
 | Career Roadmap | Daily Tasks | Dashboard |
 |---|---|---|
