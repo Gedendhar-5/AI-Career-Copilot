@@ -15,7 +15,6 @@
 ## 📌 Table of Contents
 
 - [Overview](#-overview)
-- [Live Demo](#-live-demo)
 - [System Architecture](#-system-architecture)
 - [RAG Architecture](#-rag-architecture---retrieval-augmented-generation)
 - [LLM Integration Architecture](#-llm-integration-architecture)
