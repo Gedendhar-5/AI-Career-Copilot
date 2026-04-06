@@ -16,7 +16,6 @@
 
 - [Overview](#-overview)
 - [Live Demo](#-live-demo)
-- [Key Features](#-key-features)
 - [System Architecture](#-system-architecture)
 - [RAG Architecture](#-rag-architecture---retrieval-augmented-generation)
 - [LLM Integration Architecture](#-llm-integration-architecture)
@@ -46,14 +45,7 @@
 | No skill comparison | Exact skill gap analysis with % match score |
 | No learning plan | Generates week-by-week roadmap + daily tasks |
 
----
 
-## 🌐 Live Demo
-
-> 🚀 **[Try it here →](https://your-app.streamlit.app)**  
-> *(No signup required — paste your resume and start)*
-
----
 
 ## ✨ Key Features
 
